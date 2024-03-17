@@ -7,5 +7,6 @@ urlpatterns = [
     path('', index, name='index'),
     path('login/', login, name='login'),
     path('signup/', signup, name='signup'),
-    path('logout/', logout, name='logout')
+    path('logout/', logout, name='logout'),
+    path('like-post/<slug:post_slug>/', like_post, name='like_post')
 ]
