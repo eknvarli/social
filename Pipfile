@@ -8,8 +8,9 @@ django = "*"
 django-environ = "*"
 django-compressor = "*"
 pillow = "*"
+django-autoslug = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.12"
+python_version = "3.10"
